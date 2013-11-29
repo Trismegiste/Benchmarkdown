@@ -35,4 +35,4 @@ Here I'm only benchmarking the speed. There are others facts to consider :
 * strange but easy to extend, rely massively on hidden coupling
 * fully extendable with a symfony console (über-klass) but early stage
 
-[Stars this repo](https://github.com/Trismegiste/Benchmarkdown/star) if you like it ! (thanks)
+Stars this repository if you like it ! (thanks)
