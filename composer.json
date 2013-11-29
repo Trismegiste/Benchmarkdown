@@ -1,0 +1,17 @@
+{
+    "name": "trismegiste/bench-md",
+    "description": "Benchmark for Mardown parser",
+    "require": {
+        "michelf/php-markdown": "dev-lib",
+        "erusev/parsedown": "dev-master",
+        "kzykhys/ciconia": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Trismegiste",
+            "email": "flo@trismegiste.net"
+        }
+    ],
+    "minimum-stability": "dev"
+}
