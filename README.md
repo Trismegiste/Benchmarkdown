@@ -6,16 +6,16 @@ Benchmark Markdown parsers
 
 I tiny-tyny quick & dirty script to benchmark markdown parsers
 
-* michelf/php-markdown
-* erusev/parsedown
-* kzykhys/ciconia
+* [michelf/php-markdown](https://github.com/michelf/php-markdown)
+* [erusev/parsedown](https://github.com/erusev/parsedown)
+* [kzykhys/ciconia](https://github.com/kzykhys/Ciconia)
 
 ## Show me the result FFS !
 
-No APC 
-No X-Debug
+* No APC 
+* No X-Debug
 
-I've got :
+On 1000 loops, I've got, in seconds :
 
 ```
 erusev/parsedown: 1.4 s
@@ -26,3 +26,13 @@ kzykhys/ciconia: 10.2 s
 ## And the winner is...
 
 **erusev/parsedown**
+
+## Notes
+
+Here I'm only benchmarking the speed. There are others facts to consider :
+
+* parsedown : works also on PHP 5.2, Github flavored but rely on a singleton anti-pattern
+* strange but easy to extend, rely massively on hidden coupling
+* fully extendable with a symfony console (über-klass) but early stage
+
+[Stars this repo](https://github.com/Trismegiste/Benchmarkdown/star) if you like it ! (thanks)
