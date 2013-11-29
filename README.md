@@ -31,8 +31,8 @@ kzykhys/ciconia: 10.2 s
 
 Here I'm only benchmarking the speed. There are others facts to consider :
 
-* parsedown : works also on PHP 5.2, Github flavored but rely on a singleton anti-pattern
-* strange but easy to extend, rely massively on hidden coupling
-* fully extendable with a symfony console (über-klass) but early stage
+* erusev/parsedown: works also on PHP 5.2, Github flavored but rely on a singleton anti-pattern
+* michelf/php-markdown: strange but easy to extend, rely massively on hidden coupling
+* kzykhys/ciconia: fully extendable with a symfony console (über-klass) but early stage
 
 Stars this repository if you like it ! (thanks)
