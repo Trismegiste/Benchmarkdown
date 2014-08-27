@@ -27,6 +27,17 @@ kzykhys/ciconia: 10.2 s
 
 **erusev/parsedown**
 
+## Update
+
+I've made a recent "composer update" on this benchmark and I've got :
+```
+erusev/parsedown: 15.4 s
+michelf/php-markdown: 49.6 s
+kzykhys/ciconia: 130.1 s
+```
+
+the parser from erusev is still the best ! Good job 
+
 ## Notes
 
 Here I'm only benchmarking the speed. There are others facts to consider :
