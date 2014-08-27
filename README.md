@@ -29,7 +29,7 @@ kzykhys/ciconia: 10.2 s
 
 ## Update
 
-I've made a recent "composer update" on this benchmark and I've got :
+I've made a recent "composer update" on this benchmark and I've got (on a slow laptop) :
 ```
 erusev/parsedown: 15.4 s
 michelf/php-markdown: 49.6 s
